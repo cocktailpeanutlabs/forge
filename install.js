@@ -43,8 +43,6 @@ module.exports = async (kernel) => {
       method: "self.set",
       params: {
         "app/ui-config.json": {
-          "txt2img/Width/value": 1024,
-          "txt2img/Height/value": 1024,
           "txt2img/Sampling steps/value": 1,
           "txt2img/CFG Scale/value": 1.0
         }
