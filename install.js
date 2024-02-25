@@ -36,7 +36,7 @@ module.exports = async (kernel) => {
       method: "fs.share",
       params: {
         drive: {
-          outputs: "app/outputs"
+          outputs: "app/output"
         }
       }
     }, {
